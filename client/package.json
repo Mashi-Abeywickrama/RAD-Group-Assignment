@@ -4,7 +4,10 @@
   "description": "",
   "main": "setupProxy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +19,26 @@
     "react-redux": "^8.0.4",
     "reactstrap": "^9.1.4",
     "redux": "^4.2.0",
-    "redux-thunk": "^2.4.1"
+    "redux-thunk": "^2.4.1",
+    "http-proxy-middleware": "^2.0.1",
+    "lodash": "^4.17.21",
+    "lodash.template": "^4.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux-form": "^1.16.14",
+    "react-router-dom": "^5.2.1",
+    "react-scripts": "^4.0.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
